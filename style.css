@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   margin: 0;
+  font-size: 14px;
 }
 
 img {
@@ -21,6 +22,7 @@ header {
 
 header .logo {
   font-size: 30px;
+  letter-spacing: -1px;
 }
 
 header .logo span {
