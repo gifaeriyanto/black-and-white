@@ -80,7 +80,7 @@ section#main .image .intro span {
 }
 
 section#main .dark-box {
-  background-color: black;
+  background-color: #2f2f2f;
   height: 250px;
   flex-basis: 250px;
   margin-left: 16px;
