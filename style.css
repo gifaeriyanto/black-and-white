@@ -1,5 +1,5 @@
 body {
-  font-family: "Arial", sans-serif;
+  font-family: sans-serif;
   margin: 0;
 }
 
@@ -12,39 +12,76 @@ img {
   margin: auto;
 }
 
-.navbar {
+header {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.navbar .logo {
+header .logo {
   font-size: 30px;
 }
 
-.navbar .logo span {
+header .logo span {
   font-weight: bold;
 }
 
-.navbar .menu {
+header nav {
   display: flex;
   align-items: flex-end;
 }
 
-.navbar .menu > div {
+header nav > div {
   margin-left: 40px;
 }
 
-.navbar .menu > div a {
+header nav > div a {
   text-decoration: none;
   color: #999999;
 }
 
-.navbar .menu > div .active {
+header nav > div .active {
   color: #000000;
 }
 
-.navbar .menu > div:first-child {
+header nav > div:first-child {
   margin-left: 0;
+}
+
+section#main {
+  display: flex;
+}
+
+section#main .image {
+  height: 250px;
+  background-image: url("assets/image.jpg");
+  background-position: center;
+  background-size: cover;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+}
+
+section#main .image .intro {
+  color: white;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  max-width: 60%;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+section#main .image .intro span {
+  background-color: rgba(0, 0, 0, 0.6);
+  line-height: 1.8;
+  box-shadow: 0 0 0px 6px rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+section#main .dark-box {
+  background-color: black;
+  height: 250px;
+  flex-basis: 250px;
+  margin-left: 16px;
 }
